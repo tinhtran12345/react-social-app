@@ -13,7 +13,7 @@ export const Topbar = () =>{
             </div>
             <div className="topbarCenter">
                 <div className="searchbar">
-                    <SearchIcon/>
+                    <SearchIcon className='searchIcon'/>
                     <input placeholder='Search for friend, post or video' className="searchInput" />
                     
                 </div>
@@ -37,8 +37,7 @@ export const Topbar = () =>{
                         <span className="topbarIconBadge">4</span>
                     </div>
                 </div>
-                <img src="/assets/person/1.jpeg" alt="" className='topbarImg' />
-                
+                <img src="/assets/person/1.jpeg" alt="" className='topbarImg' />  
             </div>
         </div>
     )
