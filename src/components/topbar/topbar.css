@@ -9,6 +9,7 @@
     background: #1877f2;
     justify-content: space-between;
     gap: 2rem;
+    z-index: 100;
 
 }
 
@@ -36,7 +37,6 @@
     cursor: pointer;
     align-items: center;
     margin-right: 3rem;
-
 }
 
 .logo{
@@ -71,6 +71,10 @@
 .topbarIcons{
     display: flex;
     align-items: center;
+}
+.topbarIconItem:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 2) 0.3s;
+    scale: 1.2;
 }
 
 .topbarIcons .topbarIconItem{
