@@ -1,8 +1,14 @@
 
 .homeContainer{
-    display: flex;
-    width: 100%;
-
-    /* text-align: center; */
+    margin: 0 auto;
+    width: 90%;
 }
 
+
+.main{
+    display: grid;
+    grid-template-columns: 15rem auto 20rem;
+    position: relative;
+    gap: 1rem;
+    top: 50px;
+}

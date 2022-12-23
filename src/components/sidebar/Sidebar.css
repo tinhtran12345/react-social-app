@@ -1,15 +1,13 @@
 .sidebar{
-    flex: 3;
     height: calc(100vh-50px);
     overflow-y: scroll;
-    position: sticky;
-    top: 50px;
+    overflow: hidden;
 }
 ::-webkit-scrollbar{
     width: 5px;
 }
 ::-webkit-scrollbar-track{
-    background-color: #ece4e4;
+    background-color: #f3dfdf;
 }
 ::-webkit-scrollbar-thumb{
     background-color: rgb(179, 179, 179);;
@@ -19,6 +17,7 @@
 
 
 .sidebarWrapper{
+    position: relative;
     padding: 20px;
 }
 
@@ -38,7 +37,8 @@
 }
 .sidebarListItem:hover{
     transition: ease-in-out 0.3s;
-    scale: 1.2;
+    scale: 1.1;
+    margin-left: 10px;
 }
 .sidebarButton{
     width: 150px;
