@@ -1,13 +1,14 @@
 
 .homeContainer{
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    /* max-width: 960px; */
 }
 
 
 .main{
     display: grid;
-    grid-template-columns: 15rem auto 20rem;
+    grid-template-columns: 15rem auto 30vw;
     position: relative;
     gap: 1rem;
     top: 50px;
